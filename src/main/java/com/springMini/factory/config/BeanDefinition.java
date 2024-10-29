@@ -2,13 +2,19 @@ package com.springMini.factory.config;
 
 public class BeanDefinition {
 
-    private Object bean;
+    // bean元数据
+    private Class bean;
 
-    public BeanDefinition(Object bean) {
+    public BeanDefinition(Class bean) {
         this.bean = bean;
     }
 
-    public Object getBean() {
-        return this.bean;
+    public Class getBean() {
+        return bean;
     }
+
+    public void setBean(Class bean) {
+        this.bean = bean;
+    }
+
 }
