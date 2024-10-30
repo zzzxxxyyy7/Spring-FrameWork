@@ -1,6 +1,6 @@
-package com.springMini.factory.support;
+package com.springMini.beans.factory.support;
 
-import com.springMini.factory.config.BeanDefinition;
+import com.springMini.beans.factory.config.BeanDefinition;
 
 import java.util.HashMap;
 import java.util.Map;

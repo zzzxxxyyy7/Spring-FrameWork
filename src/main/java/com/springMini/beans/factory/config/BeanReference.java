@@ -1,4 +1,4 @@
-package com.springMini.factory.config;
+package com.springMini.beans.factory.config;
 
 // 引用bean
 public class BeanReference {

@@ -1,6 +1,6 @@
-package com.springMini.factory.config;
+package com.springMini.beans.factory.config;
 
-import com.springMini.factory.PropertyValues;
+import com.springMini.beans.factory.PropertyValues;
 
 public class BeanDefinition {
 

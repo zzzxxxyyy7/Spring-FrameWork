@@ -1,10 +1,10 @@
-package com.springMini.factory.support;
+package com.springMini.beans.factory.support;
 
 import cn.hutool.core.bean.BeanUtil;
-import com.springMini.factory.PropertyValue;
-import com.springMini.factory.PropertyValues;
-import com.springMini.factory.config.BeanDefinition;
-import com.springMini.factory.config.BeanReference;
+import com.springMini.beans.factory.config.BeanDefinition;
+import com.springMini.beans.factory.config.BeanReference;
+import com.springMini.beans.factory.PropertyValue;
+import com.springMini.beans.factory.PropertyValues;
 
 import java.lang.reflect.Constructor;
 

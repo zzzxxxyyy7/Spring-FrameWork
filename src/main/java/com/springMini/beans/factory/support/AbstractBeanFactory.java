@@ -1,7 +1,7 @@
-package com.springMini.factory.support;
+package com.springMini.beans.factory.support;
 
-import com.springMini.factory.BeanFactory;
-import com.springMini.factory.config.BeanDefinition;
+import com.springMini.beans.factory.BeanFactory;
+import com.springMini.beans.factory.config.BeanDefinition;
 
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
     @Override

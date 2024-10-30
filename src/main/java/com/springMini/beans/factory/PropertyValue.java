@@ -1,4 +1,4 @@
-package com.springMini.factory;
+package com.springMini.beans.factory;
 
 // bean 依赖属性信息
 public class PropertyValue {

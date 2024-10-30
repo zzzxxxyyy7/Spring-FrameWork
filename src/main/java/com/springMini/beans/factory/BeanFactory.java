@@ -1,4 +1,4 @@
-package com.springMini.factory;
+package com.springMini.beans.factory;
 
 public interface BeanFactory {
 
