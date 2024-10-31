@@ -7,4 +7,6 @@ import com.springMini.beans.factory.config.BeanDefinition;
  */
 public interface BeanDefinitionRegistry {
     void registerBeanDefinition(String name, BeanDefinition beanDefinition);
+
+    boolean containsBeanDefinition(String beanName);
 }
